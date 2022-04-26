@@ -1,0 +1,7 @@
+<h1>Listado de articulos</h1>
+<hr>
+<!--Recorremos los articulos-->
+<% @article.each do |item| %>
+  <h2><%= item.title  %></h2>
+  <p><%= item.body  %></p>
+<%end%>
